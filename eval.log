@@ -1,0 +1,38 @@
+Running the following version of tools/evaluate_treebank.pl:
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Apr 21 19:02:58 2018 +0200
+Evaluating the following revision of UD_Turkish-GB:
+commit a095c1814efed65f7d0323a010e838abb223a360
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 13:44:21 2019 +0200
+Size: counted 16879 of 16879 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.65214049141358.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 11737 out of 16879 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 31 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi: found 4312 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 16879 words.
+Genres: found 1 out of 17 known.
+validate.py --lang tr --max-err=10 UD_Turkish-GB/tr_gb-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.409115571060475) = 0.104901428477045
+(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
+(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
+(TOTAL score=0.420632544208161) * (availability=1) * (validity=1) = 0.420632544208161
+STARS = 2
+UD_Turkish-GB	0.420632544208161	2

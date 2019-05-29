@@ -15,8 +15,14 @@ at the [the treebank web page](http://coltekin.github.io/gk-treebank/).
 * The treebank is described in, _Çağrı Çöltekin (2015)
     [A grammar-book treebank of Turkish](http://tlt14.ipipan.waw.pl/index.php/download_file/view/17/152/)
     In: Proceedings of the 14th workshop on Treebanks and Linguistic Theories (TLT 14)_
-* The example sentences are from 
+* The example sentences are from
     _Aslı Göksel and Celia Kerslake.  Turkish: A Comprehensive Grammar. London: Routledge, 2005._
+
+
+# Changelog
+
+* 2019-05-15 v2.4
+  * Initial release in Universal Dependencies.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================

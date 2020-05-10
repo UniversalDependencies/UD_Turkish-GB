@@ -21,6 +21,8 @@ at the [the treebank web page](http://coltekin.github.io/gk-treebank/).
 
 # Changelog
 
+* 2019-11-15 v2.6
+  * Bug fixes.
 * 2019-11-15 v2.5
   * This release fixes some annotation errors (see commit #8894dd3 for details).
 * 2019-05-15 v2.4

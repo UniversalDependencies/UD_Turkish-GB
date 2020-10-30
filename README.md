@@ -6,7 +6,7 @@ This is a treebank annotating example sentences from a comprehensive grammar boo
 
 This treebank was originally annotated with the aim of setting guidelines for the Turkish UD.
 All fields are annotated manually for UD v1.
-The conversion to v2 was performed semi-automatically.
+The conversion to v2 included some automatic changes.
 Further information on the treebank and the annotation process can be found
 at the [the treebank web page](http://coltekin.github.io/gk-treebank/).
 
@@ -21,7 +21,15 @@ at the [the treebank web page](http://coltekin.github.io/gk-treebank/).
 
 # Changelog
 
-* 2019-11-15 v2.6
+* 2020-11-15 v2.7
+  * Added English translations and glosses when available.
+  * Some duplicate sentences were removed, a few missed during
+    the earlier releases were added.
+  * A few structural changes, most notably, some "derived
+    postpositions", like _üstunde_ 'on top of', are now analyzed
+    as noun compounds similar to some of the other Turkish treebanks.
+  * Bug fixes.
+* 2020-05-15 v2.6
   * Bug fixes.
 * 2019-11-15 v2.5
   * This release fixes some annotation errors (see commit #8894dd3 for details).
@@ -36,7 +44,7 @@ Includes text: yes
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native
-XPOS: manual native
+XPOS: not available
 Features: manual native
 Relations: manual native
 Contributors: Çöltekin, Çağrı

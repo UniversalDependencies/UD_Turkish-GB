@@ -3,11 +3,11 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Turkish-GB:
-commit cdd6465955b10cdc980ce76ab5a8444351cc466d
-Merge: 7003bb5 cc47b3c
+commit 9515f06dee59fb7cce574d76d33efe74652e6645
+Merge: d26feee cfe53bc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 16881 of 16881 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.6523774582385.
+Size: counted 17177 of 17177 words (nodes).
+Size: min(0, log((N/1000)**2)) = 5.68714255930978.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,12 +15,12 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 11746 out of 16881 total words have one or more features.
+Features: 11978 out of 17177 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 7 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 16881 words.
+Udapi: found 58 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 17177 words.
 Genres: found 1 out of 17 known.
 validate.py --lang tr --max-err=10 UD_Turkish-GB/tr_gb-ud-test.conllu
 *** PASSED ***
@@ -28,11 +28,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.409132723291218) = 0.104905826484928
+(weight=0.256410256410256) * (score{size}=0.411649105217562) = 0.105551052619888
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.99585332622475) = 0.306416408069154
+(weight=0.307692307692308) * (score{udapi}=0.96623391744775) = 0.297302743830077
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.723976427208274) * (availability=1) * (validity=1) = 0.723976427208274
+(TOTAL score=0.715507989104157) * (availability=1) * (validity=1) = 0.715507989104157
 STARS = 3.5
-UD_Turkish-GB	0.723976427208274	3.5
+UD_Turkish-GB	0.715507989104157	3.5

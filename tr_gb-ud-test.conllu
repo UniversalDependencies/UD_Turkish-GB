@@ -2034,7 +2034,7 @@
 
 # sent_id = GK12-0023
 # text = İstanbul’da Aytenin iki arkadaşı var.
-# gloss = _ Ayten-GEN two friend-3SG.POSS _ 
+# gloss = _ Ayten-GEN two friend-3SG.POSS _
 # en = Ayten has two friends in Istanbul.
 1	İstanbul’da	İstanbul	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
 2	Aytenin	Ayten	PROPN	_	Case=Gen|Number=Sing	5	obl	_	_
@@ -2164,7 +2164,7 @@
 # gloss = every day work-LOC be-IMPF-1SG
 # I am at work every day.
 1	Her	her	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	gün	gün	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+2	gün	gün	NOUN	_	Case=Nom|Number=Sing	3	obl:tmod	_	_
 3	işte	iş	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
 4	oluyorum	ol	AUX	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -2773,7 +2773,7 @@
 
 # sent_id = GK12-0098
 # text = Ben Ahmet’le dün deniz kenarında yürüyüş yaptım.
-# en = Yesterday Ahmet and I went for a walk on the seashore. 
+# en = Yesterday Ahmet and I went for a walk on the seashore.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 2	Ahmet’le	Ahmet	PROPN	_	Case=Ins|Number=Sing	7	nmod	_	_
 3	dün	dün	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
@@ -3265,7 +3265,7 @@
 
 # sent_id = GK13-0025
 # text = Konuşmaktan bile utanıyor.
-# gloss = speak-VN-ABL _ _ 
+# gloss = speak-VN-ABL _ _
 # en = S/he is even embarrassed to speak.
 1	Konuşmaktan	konuş	VERB	_	Case=Abl|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
 2	bile	bile	ADV	_	_	1	advmod:emph	_	_
@@ -3274,7 +3274,7 @@
 
 # sent_id = GK13-0026
 # text = Konuşmaya bile utanıyor.
-# gloss = speak-VN-DAT _ _ 
+# gloss = speak-VN-DAT _ _
 # en = S/he is even embarrassed to speak.
 1	Konuşmaya	konuş	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	3	advcl	_	_
 2	bile	bile	ADV	_	_	1	advmod:emph	_	_
@@ -4051,7 +4051,7 @@
 
 # sent_id = GK13-0105
 # text = Şan derslerine gidip duruyor ama şarkı söylediği yok.
-# gloss = _ _ go-CONJ AUX-IMPF _ _ _ _ 
+# gloss = _ _ go-CONJ AUX-IMPF _ _ _ _
 # en = S/he keeps going to singing lessons, but s/he doesn’t sing.
 1	Şan	şan	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	derslerine	ders	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
@@ -4404,7 +4404,7 @@
 
 # sent_id = GK14-0022
 # text = Bazı insanlar çocuklarına tuhaf adlar koyarlar.
-# gloss = some person-PL _ _ _ _ 
+# gloss = some person-PL _ _ _ _
 # en = Some people give their children strange names.
 1	Bazı	bazı	DET	_	Definite=Ind|PronType=Art	2	det	_	_
 2	insanlar	insan	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
@@ -4816,7 +4816,7 @@
 
 # sent_id = GK14-0073
 # text = Numarası aklında kalmamıştı.
-# gloss =  number-3SG.POSS mind-3SG.POSS-LOC _ 
+# gloss =  number-3SG.POSS mind-3SG.POSS-LOC _
 # en = Its number was no longer in his head.
 1	Numarası	numara	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
 2	aklında	akıl	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	compound	_	_
@@ -4825,7 +4825,7 @@
 
 # sent_id = GK14-0074
 # text = Evini daha görmedim.
-# gloss = house-2SG.POSS-ACC _ _ 
+# gloss = house-2SG.POSS-ACC _ _
 # en = I haven’t seen your house yet.
 1	Evini	ev	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
 2	daha	daha	ADV	_	_	3	advmod	_	_
@@ -4899,7 +4899,7 @@
 
 # sent_id = GK14-0083
 # text = Ders kitabını beğenmedim.
-# gloss = leson book-NC-ACC _ /  lesson book-3SG.POSS-ACC _ 
+# gloss = leson book-NC-ACC _ /  lesson book-3SG.POSS-ACC _
 # en = I didn’t like the textbook. / I didn’t like his/her textbook.
 1	Ders	ders	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	kitabını	kitap	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
@@ -5127,7 +5127,7 @@
 
 # sent_id = GK14-0107
 # text = Bir arkadaşımı getireceğim.
-# gloss = a friend-1SG.POSS-ACC _ 
+# gloss = a friend-1SG.POSS-ACC _
 # en = I’m going to bring a friend of mine.
 1	Bir	bir	DET	_	Definite=Ind|PronType=Art	2	det	_	_
 2	arkadaşımı	arkadaş	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obj	_	_
@@ -5443,7 +5443,7 @@
 
 # sent_id = GK14-0140
 # text = Çikolatalı pastadan iki dilim yedi.
-# gloss = chocolate cake-ABL two slice _ 
+# gloss = chocolate cake-ABL two slice _
 # en = He ate two slices of the chocolate cake.
 1-2	Çikolatalı	_	_	_	_	_	_	_	_
 1	Çikolata	çikolata	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
@@ -5681,7 +5681,7 @@
 
 # sent_id = GK14-0165
 # text = Senin arkadaşlarına soralım.
-# gloss = you-GEN friend-PL-2SG.POSS-DAT _ 
+# gloss = you-GEN friend-PL-2SG.POSS-DAT _
 # en = Let’s ask your friends.
 1	Senin	sen	PRON	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	arkadaşlarına	arkadaş	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=2	3	obl	_	_
@@ -5690,7 +5690,7 @@
 
 # sent_id = GK14-0166
 # text = Onun arkadaşlarına soralım.
-# gloss = s/he-GEN friend-PL-3SG.POSS-DAT _ 
+# gloss = s/he-GEN friend-PL-3SG.POSS-DAT _
 # en = Let’s ask his/her friends.
 1	Onun	o	PRON	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	arkadaşlarına	arkadaş	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
@@ -5699,7 +5699,7 @@
 
 # sent_id = GK14-0167
 # text = Onların arkadaşlarına soralım.
-# gloss = they-GEN friend-PL-3SG.POSS-DAT _ 
+# gloss = they-GEN friend-PL-3SG.POSS-DAT _
 # en = Let’s ask their friends.
 1	Onların	onlar	PRON	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	arkadaşlarına	arkadaş	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
@@ -5708,7 +5708,7 @@
 
 # sent_id = GK14-0168
 # text = Onların arkadaşlarına soralım.
-# gloss = they-GEN friend-3SG.POSS-DAT _ 
+# gloss = they-GEN friend-3SG.POSS-DAT _
 # en = Let’s ask their friend.
 1	Onların	onlar	PRON	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	arkadaşlarına	arkadaş	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
@@ -5817,7 +5817,7 @@
 
 # sent_id = GK14-0179
 # text = Bugünkü konuğumuz, ülkemizin genç şairlerinden Küçük İskender.
-# gloss = _ _ country-1PL.POSS-GEN young poet-PL-3SG.POSS-ABL _ _ 
+# gloss = _ _ country-1PL.POSS-GEN young poet-PL-3SG.POSS-ABL _ _
 # en = Our guest today is Küçük İskender, [one] of our country’s young poets.
 1-2	Bugünkü	_	_	_	_	_	_	_	_
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
@@ -6278,7 +6278,7 @@
 
 # sent_id = GK15-0019
 # text = dört yaşında bir çocuk
-# gloss = four age-NC-LOC _ _ 
+# gloss = four age-NC-LOC _ _
 # en = a four-year-old child
 1	dört	dört	NUM	_	NumType=Card	2	nummod	_	_
 2	yaşında	yaş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
@@ -6378,7 +6378,7 @@
 
 # sent_id = GK15-0029
 # text = Bahçedeki bazı ağaçlar yapraklarını dökmeye başladı.
-# gloss = garden-LOC-ADJ some tree-PL _ _ _ 
+# gloss = garden-LOC-ADJ some tree-PL _ _ _
 # en = Some trees in the garden have begun to shed their leaves.
 1-2	Bahçedeki	_	_	_	_	_	_	_	_
 1	Bahçede	bahçe	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
@@ -6541,7 +6541,7 @@
 
 # sent_id = GK15-0044
 # text = beklediğimiz kadar temiz
-# gloss = expect-CV-1PL.POSS _ _ 
+# gloss = expect-CV-1PL.POSS _ _
 # en = as clean as we expect(ed)
 1	beklediğimiz	bekledik	VERB	_	Mood=Ind|Number[psor]=Plur|Person[psor]=1|Tense=Past|VerbForm=Part	3	advcl	_	_
 2	kadar	kadar	ADP	_	_	1	mark	_	_
@@ -6981,7 +6981,7 @@
 
 # sent_id = GK15-0097
 # text = Limonun tanesi 20 peni.
-# gloss = lemon-GEN ENUM-3SG.POSS _ _ 
+# gloss = lemon-GEN ENUM-3SG.POSS _ _
 # en = The lemons are 20p each.
 1	Limonun	limon	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
 2	tanesi	tane	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
@@ -7427,21 +7427,21 @@
 
 # sent_id = GK15-0147
 # text = birkaç oynayan çocuk
-# en = a few playing children 
+# en = a few playing children
 1	birkaç	birkaç	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 2	oynayan	oynayan	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK15-0148
 # text = oynayan birkaç çocuk
-# en = a few playing children 
+# en = a few playing children
 1	oynayan	oynayan	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	3	acl	_	_
 2	birkaç	birkaç	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	çocuk	çocuk	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = GK15-0149
 # text = birkaç tane oynayan çocuk
-# en = a few playing children 
+# en = a few playing children
 1	birkaç	birkaç	DET	_	Definite=Ind|PronType=Art	2	det	_	_
 2	tane	tane	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 3	oynayan	oynayan	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	4	acl	_	_
@@ -7449,7 +7449,7 @@
 
 # sent_id = GK15-0150
 # text = oynayan birkaç tane çocuk
-# en = a few playing children 
+# en = a few playing children
 1	oynayan	oynayan	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	4	acl	_	_
 2	birkaç	birkaç	DET	_	Definite=Ind|PronType=Art	3	det	_	_
 3	tane	tane	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
@@ -7487,7 +7487,7 @@
 
 # sent_id = GK15-0155
 # text = kimi ün yapan oyuncular
-# gloss = some fame make-PART actor-PL 
+# gloss = some fame make-PART actor-PL
 # en = some actors who become famous
 1	kimi	kimi	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 2	ün	ün	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
@@ -7496,7 +7496,7 @@
 
 # sent_id = GK15-0156
 # text = ün yapan kimi oyuncular
-# gloss = fame make-PART some actor-PL 
+# gloss = fame make-PART some actor-PL
 # en = some actors who become famous
 1	ün	ün	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
 2	yapan	yapan	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Part	4	acl	_	_
@@ -8092,7 +8092,7 @@
 # text = 8 Kasım 1984’te
 # en = on the 8th of November 1984
 1	8	8	NUM	_	NumType=Card	2	nummod	_	_
-2	Kasım	kasım	NOUN	_	Case=Nom|Number=Sing	3	nmod:tmod	_	_
+2	Kasım	kasım	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	1984’te	1984	NUM	_	Case=Loc|Number=Sing|NumType=Card	0	root	_	_
 
 # sent_id = GK16-0059
@@ -8100,7 +8100,7 @@
 # gloss = June month-NC-GEN seventeen-3SG.POSS-LOC
 # en = on the 17th of June
 1	haziran	haziran	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	ayının	ay	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod:tmod	_	_
+2	ayının	ay	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
 3	on	on	NUM	_	NumType=Card	4	compound	_	_
 4	yedisinde	yedi	NUM	_	Case=Loc|Number=Sing|Number[psor]=Sing|NumType=Card|Person[psor]=3	0	root	_	_
 
@@ -8108,7 +8108,7 @@
 # text = haziranın on yedisinde
 # gloss = June-GEN seventeen-3SG.POSS-LOC
 # en = on the 17th of June
-1	haziranın	haziran	NOUN	_	Case=Gen|Number=Sing	3	nmod:tmod	_	_
+1	haziranın	haziran	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
 2	on	on	NUM	_	NumType=Card	3	compound	_	_
 3	yedisinde	yedi	NUM	_	Case=Loc|Number=Sing|Number[psor]=Sing|NumType=Card|Person[psor]=3	0	root	_	_
 
@@ -8357,7 +8357,7 @@
 # text = Yirmi yıl önce burası tarlaydı.
 # en = Twenty years ago this was a field.
 1	Yirmi	yirmi	NUM	_	NumType=Card	2	nummod	_	_
-2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	5	nmod:tmod	_	_
+2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	önce	önce	ADP	_	_	2	case	_	_
 4	burası	bura	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Dem	5	obj	_	_
 5-6	tarlaydı	_	_	_	_	_	_	_	SpaceAfter=No
@@ -8388,7 +8388,7 @@
 # text = Beş gün sonra sınavım var.
 # en = I’ve got an exam in five days time / I’ve got an exam five days from now.
 1	Beş	beş	NUM	_	NumType=Card	2	nummod	_	_
-2	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	nmod:tmod	_	_
+2	gün	gün	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
 3	sonra	sonra	ADP	_	_	2	case	_	_
 4	sınavım	sınav	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
 5	var	var	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -8441,7 +8441,7 @@
 # text = Bu sabah bir öğrencim telefon etti.
 # en = A student of mine rang this morning.
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
-2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing	6	nmod:tmod	_	_
+2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing	6	obl:tmod	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	öğrencim	öğrenci	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
 5	telefon	telefon	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
@@ -8632,7 +8632,7 @@
 # en = Şükran and I try to get together once a month.
 1	Şükran’la	şükran	NOUN	_	Case=Ins|Number=Sing	5	nsubj	_	_
 2	ayda	ay	NOUN	_	Case=Loc|Number=Sing	3	nmod	_	_
-3	bir	bir	NUM	_	NumType=Card	4	nmod:tmod	_	_
+3	bir	bir	NUM	_	NumType=Card	4	nmod	_	_
 4	görüşmeye	görüşme	NOUN	_	Case=Dat|Number=Sing	5	advcl	_	_
 5	çalışıyoruz	çalış	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -8761,7 +8761,7 @@
 2	sorun	sorun	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 3	daha	daha	ADV	_	_	5	advmod	_	_
 4	iki	iki	NUM	_	NumType=Card	5	nummod	_	_
-5	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	7	nmod:tmod	_	_
+5	yıl	yıl	NOUN	_	Case=Nom|Number=Sing	7	obl:tmod	_	_
 6	önce	önce	ADP	_	_	5	case	_	_
 7-8	vardı	_	_	_	_	_	_	_	SpaceAfter=No
 7	var	var	ADJ	_	_	0	root	_	_
@@ -12977,7 +12977,7 @@
 
 # sent_id = GK19-0030
 # text = Sen şimdi o filmi görmüş oldun mu?
-# gloss = _ _ _ _ see-EV/PF be-PF-2SG INT 
+# gloss = _ _ _ _ see-EV/PF be-PF-2SG INT
 # en = Do you consider yourself as having seen that film now?
 1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 2	şimdi	şimdi	ADV	_	_	5	advmod	_	_
@@ -23728,7 +23728,7 @@
 
 # sent_id = GK26-0003
 # text = Çocukları getirirler diye porselen eşyayı ortadan kaldırmıştı.
-# gl = _ bring-AOR-3PL SUB _ _ _ _ 
+# gl = _ bring-AOR-3PL SUB _ _ _ _
 # en = Thinking they would bring the children], she had put the china pieces away.
 1	Çocukları	çocuk	NOUN	_	Case=Acc|Number=Plur	2	nsubj	_	_
 2	getirirler	getir	VERB	_	Aspect=Hab|Mood=Gen|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
@@ -24011,7 +24011,7 @@
 
 # sent_id = GK26-0024
 # text = Köşeyi döndünüz mü sinemayı göreceksiniz.
-# gl = _ turn-PF-2SG/PL INT _ _ 
+# gl = _ turn-PF-2SG/PL INT _ _
 # en = As soon as you turn the corner you’ll see the cinema.
 1	Köşeyi	köşe	NOUN	_	Case=Acc|Number=Sing	2	obj	_	_
 2	döndünüz	dön	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	5	advcl	_	_
@@ -25861,7 +25861,7 @@
 
 # sent_id = GK27-0050
 # text = Vaktim olsa ben de yarın sizlere katılırdım.
-# gl = time-1SG.POSS be-COND I also tomorrow you-PL-DAT join-AOR-P.COP-1SG 
+# gl = time-1SG.POSS be-COND I also tomorrow you-PL-DAT join-AOR-P.COP-1SG
 # en = If I had time I would join you tomorrow. (But I don’t, and therefore I won’t.)
 1	Vaktim	vakit	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	_
 2	olsa	ol	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_

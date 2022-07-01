@@ -5572,7 +5572,7 @@
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	odayı	oda	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
 3	artık	artık	ADV	_	_	5	advmod	_	_
-4	Fatma’nın	Fatma	PROPN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	5	xcomp	_	_
+4	Fatma’nın	Fatma	PROPN	_	Case=Gen|Number=Sing	5	xcomp	_	_
 5	sayıyorum	say	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -7175,7 +7175,7 @@
 1	Bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 2	önemli	önemli	ADJ	_	_	4	amod	_	_
 3	toplumsal	toplumsal	ADJ	_	_	4	amod	_	_
-4	sorunumuz	sorun	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	7	nsubj:cop	_	_
+4	sorunumuz	sorun	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	7	nsubj:outer	_	_
 5	da	de	ADV	_	_	4	advmod:emph	_	_
 6	ailenin	aile	NOUN	_	Case=Gen|Number=Sing	7	nsubj	_	_
 7-8	dağılmasıdır	_	_	_	_	_	_	_	SpaceAfter=No
@@ -20903,7 +20903,7 @@
 # sent_id = GK24-0079
 # text = Önemli olan sizin bu evi beğenmeniz.
 # en = The important thing is that you (should) like this house.
-1	Önemli	önemli	ADJ	_	_	6	csubj:cop	_	_
+1	Önemli	önemli	ADJ	_	_	6	csubj:outer	_	_
 2	olan	ol	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	sizin	siz	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 4	bu	bu	DET	_	Definite=Def|PronType=Art	5	det	_	_
@@ -20915,7 +20915,7 @@
 # text = Bizim ricamız toplantının haftaya ertelenmesi olacak.
 # en = Our request is (lit. will be) that the meeting be postponed to next week.
 1	Bizim	biz	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
-2	ricamız	rica	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	5	nsubj:cop	_	_
+2	ricamız	rica	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	5	nsubj:outer	_	_
 3	toplantının	toplantı	NOUN	_	Case=Gen|Number=Sing	5	nsubj	_	_
 4	haftaya	hafta	NOUN	_	Case=Dat|Number=Sing	5	obl:tmod	_	_
 5	ertelenmesi	ertele	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun|Voice=Pass	0	root	_	_
@@ -21930,7 +21930,7 @@
 5	olduktan	ol	AUX	_	Case=Abl|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
 6	sonra	sonra	ADP	_	_	4	mark	_	_
 7	artık	artık	ADV	_	_	11	advmod	_	_
-8	hiç	hiç	DET	_	Definite=Ind|Polarity=Neg|PronType=Art	10	det	_	_
+8	hiç	hiç	DET	_	Definite=Ind|Polarity=Neg|PronType=Art|Typo=Yes	10	det	_	_
 9	bir	bir	DET	_	Definite=Ind|PronType=Art	8	goeswith	_	_
 10	işe	iş	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
 11	yaramadığı	yara	VERB	_	Case=Acc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part	12	acl	_	_
@@ -23446,7 +23446,7 @@
 8	sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
 9	bile	bile	ADV	_	_	8	advmod:emph	_	_
 10-11	Semra’nınkini	_	_	_	_	_	_	_	_
-10	Semra’nın	Semra	PROPN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	11	nmod	_	_
+10	Semra’nın	Semra	PROPN	_	Case=Gen|Number=Sing	11	nmod	_	_
 11	kini	-ki	NOUN	_	Case=Acc|Number=Sing	12	ccomp	_	_
 12	unuttun	unut	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_

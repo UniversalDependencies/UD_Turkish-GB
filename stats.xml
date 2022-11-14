@@ -10,16 +10,16 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>2880</sentences><tokens>16803</tokens><words>17177</words><fused>371</fused></test>
   </size>
-  <lemmas unique="2064" /><!-- ., bir, ?, ol, bu, ,, i, o, mi, git, ben, ev, de, ki, gel -->
+  <lemmas unique="2063" /><!-- ., bir, ol, ?, bu, ,, i, o, mi, git, ben, ev, de, ki, gel -->
   <forms unique="5098" /><!-- ., bir, ?, bu, ,, ki, o, var, çok, ne, daha, kadar, de, mi, mı -->
   <fusions unique="269" /><!-- vardı, yoktu, varmış, yıldır, masadaki, metrelik, önemli, 9’daki, Amerika’lılar, bahçedeki, belliydi, bence, gönüllü, kararlıyım, meşguldük -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">806</tag><!-- var, yok, yeni, büyük, güzel, iyi, küçük, lazım, zor, önemli -->
     <tag name="ADP">432</tag><!-- kadar, ki, için, sonra, li, gibi, beri, önce, göre, -ki -->
-    <tag name="ADV">1050</tag><!-- de, çok, daha, artık, en, hiç, bile, biraz, pek, hep -->
-    <tag name="AUX">764</tag><!-- ol, i, mi, değil, olduk, olacak, bulun, bil -->
-    <tag name="CCONJ">196</tag><!-- ve, de, ne, ama, ya, hem, ister, yoksa, yok, değil -->
+    <tag name="ADV">1052</tag><!-- de, çok, daha, artık, en, hiç, bile, biraz, pek, hep -->
+    <tag name="AUX">764</tag><!-- ol, i, mi, değil, bulun, bil -->
+    <tag name="CCONJ">194</tag><!-- ve, ne, de, ama, ya, hem, ister, yoksa, yok, değil -->
     <tag name="DET">983</tag><!-- bir, bu, o, her, bütün, şu, birkaç, hiçbir, bazı, başka -->
     <tag name="INTJ">28</tag><!-- işte, neyse, ya, ay, hani, ki, maşallah, aaa, aferin, haydi -->
     <tag name="NOUN">4636</tag><!-- ev, çocuk, gün, şey, kitap, iş, araba, zaman, bugün, yıl -->
@@ -70,7 +70,7 @@
     <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">1340</feat><!-- çocuklar, onlar, günlerde, kitaplar, çocukları, öğrenciler, aldık, arkadaşlarına, ağaçlar, evler -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">8426</feat><!-- Ahmet, ben, gün, sen, bugün, ne, burada, bana, şey, evde -->
     <feat name="Number[psor]" value="Plur" upos="ADP,AUX,NOUN,PRON,VERB">245</feat><!-- gitmeniz, yapmamız, aralarında, aramızda, ettiğimiz, evimizden, yapraklarını, babaları, gördüğünüz, komşumuz -->
-    <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">1313</feat><!-- içinde, arasında, babası, olduğunu, yanında, annem, burası, yaşında, arabası, evini -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">1311</feat><!-- içinde, arasında, babası, olduğunu, yanında, annem, burası, yaşında, arabası, evini -->
     <feat name="NumType" value="Card" upos="NUM">353</feat><!-- iki, üç, beş, yüz, dört, on, bir, bin, dokuz, kaç -->
     <feat name="NumType" value="Dist" upos="NUM">19</feat><!-- birer, ikişer, üçer, dörder, yüzer -->
     <feat name="NumType" value="Ord" upos="ADJ">11</feat><!-- ikinci, üçüncü, 18., Dördüncü, birinci, milyon, İki, İkinci -->
@@ -78,7 +78,7 @@
     <feat name="Person" value="2" upos="AUX,PRON,VERB">504</feat><!-- sen, senin, siz, seni, sana, sizin, size, musun, ver, istiyorsun -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">1700</feat><!-- değil, mı, dı, geldi, oldu, herkes, olacak, olsa, istiyor, mu -->
     <feat name="Person[psor]" value="1" upos="ADP,AUX,NOUN,PRON,VERB">318</feat><!-- annem, olacağım, yapmamız, almamız, aramızda, ettiğimiz, evimizden, yanıma, Dayım, Saçımı -->
-    <feat name="Person[psor]" value="2" upos="ADJ,ADP,AUX,NOUN,PRON,PROPN,VERB">156</feat><!-- yanında, gitmeniz, içinde, evini, yanına, ettiğin, gördüğünüz, içine, yüzünden, önünden -->
+    <feat name="Person[psor]" value="2" upos="ADJ,ADP,AUX,NOUN,PRON,VERB">154</feat><!-- yanında, gitmeniz, içinde, evini, yanına, ettiğin, gördüğünüz, içine, yüzünden, önünden -->
     <feat name="Person[psor]" value="3" upos="ADP,AUX,NOUN,NUM,PRON,PROPN,VERB">1084</feat><!-- arasında, babası, içinde, olduğunu, burası, yaşında, arabası, parası, arkadaşlarına, yaptığı -->
     <feat name="Polarity" value="Neg" upos="ADJ,AUX,CCONJ,DET,PRON,VERB">640</feat><!-- yok, değil, hiçbir, görmedim, istemiyor, bilmiyordum, değilim, sevmiyor, gitmedi, hiç -->
     <feat name="Polarity" value="Pos" upos="DET,PRON,VERB">12</feat><!-- Bu, Bundan, aldıysan, ayrılmış, bana, bir, buluşacağız, burada, bırakmışım, bırakıyorsun -->
@@ -122,7 +122,7 @@
     <dep name="appos">5</dep>
     <dep name="aux">176</dep>
     <dep name="aux:q">198</dep>
-    <dep name="case">348</dep>
+    <dep name="case">347</dep>
     <dep name="cc">181</dep>
     <dep name="ccomp">169</dep>
     <dep name="compound">266</dep>
@@ -138,14 +138,14 @@
     <dep name="flat">8</dep>
     <dep name="goeswith">1</dep>
     <dep name="mark">200</dep>
-    <dep name="nmod">964</dep>
-    <dep name="nmod:comp">18</dep>
+    <dep name="nmod">929</dep>
+    <dep name="nmod:comp">17</dep>
     <dep name="nmod:part">62</dep>
     <dep name="nsubj">1630</dep>
     <dep name="nsubj:cop">25</dep>
     <dep name="nummod">193</dep>
-    <dep name="obj">1126</dep>
-    <dep name="obl">1282</dep>
+    <dep name="obj">1125</dep>
+    <dep name="obl">1320</dep>
     <dep name="obl:agent">23</dep>
     <dep name="obl:tmod">503</dep>
     <dep name="orphan">7</dep>

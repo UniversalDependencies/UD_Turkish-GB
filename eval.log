@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Turkish-GB:
-commit 0dddb5f5536af52874f4575088eac754973a7497
-Merge: 0ade673 cd59f85
+commit 121dd38b45bb1267b79e08226f8253c95226cb10
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 12:26:06 2023 +0200
 Size: counted 17177 of 17177 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.68714255930978.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL          7
-Udapi: found 7 bugs.
+               TOTAL          4
+Udapi: found 4 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 17177 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-GB/tr_gb-ud-test.conllu
@@ -33,8 +33,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.411649105217562) = 0.105551052619888
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.995924783140246) = 0.306438394812383
+(weight=0.307692307692308) * (score{udapi}=0.997671304651569) = 0.306975786046637
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.724643640086464) * (availability=1) * (validity=1) = 0.724643640086464
+(TOTAL score=0.725181031320717) * (availability=1) * (validity=1) = 0.725181031320717
 STARS = 3.5
-UD_Turkish-GB	0.724643640086464	3.5
+UD_Turkish-GB	0.725181031320717	3.5

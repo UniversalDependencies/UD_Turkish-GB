@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Turkish-GB:
-commit 8c8598c1273519cce6c5f811ff6d2ecfb5bc1033
+commit af9bea27c1c559daa69f662d4d8cd7caa1714bd4
+Merge: 5a0d903 2be91a1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:35:39 2024 +0200
 Size: counted 17177 of 17177 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.68714255930978.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,21 +20,33 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL          4
-Udapi: found 4 bugs.
+               TOTAL          1
+Udapi: found 1 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 17177 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-GB/tr_gb-ud-test.conllu
+[Line 552 Sent GK09-0002 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'çat kapı' does not have the 'ExtPos' feature
+[Line 737 Sent GK09-0024 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Konu komşu' does not have the 'ExtPos' feature
+[Line 746 Sent GK09-0025 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ufak tefek' does not have the 'ExtPos' feature
+[Line 754 Sent GK09-0026 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Paldır küldür' does not have the 'ExtPos' feature
+[Line 762 Sent GK09-0027 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Çoluk çocuk' does not have the 'ExtPos' feature
+[Line 771 Sent GK09-0028 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'süklüm püklüm' does not have the 'ExtPos' feature
+[Line 2694 Sent GK12-0091 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 2719 Sent GK12-0093 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 3257 Sent GK13-0024 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'o kadar' does not have the 'ExtPos' feature
+[Line 3768 Sent GK13-0077 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'tabii ki' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 81
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.411649105217562) = 0.105551052619888
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.997671304651569) = 0.306975786046637
+(weight=0.307692307692308) * (score{udapi}=0.999417826162892) = 0.30751317728089
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.725181031320717) * (availability=1) * (validity=1) = 0.725181031320717
+(TOTAL score=0.725467039950647) * (availability=1) * (validity=1) = 0.725467039950647
 STARS = 3.5
-UD_Turkish-GB	0.725181031320717	3.5
+UD_Turkish-GB	0.725467039950647	3.5

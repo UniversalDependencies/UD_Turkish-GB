@@ -33,7 +33,7 @@
     <tag name="X">2</tag><!-- _, çat -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="78">
+  <feats unique="80">
     <feat name="Aspect" value="Dur" upos="VERB">3</feat><!-- donakaldık, kutlayagelmişlerdir, yürüyedur -->
     <feat name="Aspect" value="Hab" upos="AUX,VERB">406</feat><!-- olur, olursa, içer, olurdu, gerekebilir, olabilir, yayardık, bilir, bulabilirsin, gelir -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">6</feat><!-- sa, se, ise, vereyim -->
@@ -53,6 +53,8 @@
     <feat name="Definite" value="Ind" upos="DET,NUM">486</feat><!-- bir, birkaç, hiçbir, bazı, başka, öyle, herhangi, birtakım, birçok, hiç -->
     <feat name="Evident" value="Fh" upos="AUX,VERB">54</feat><!-- geleceğine, aldı, bayılıyor, getirdiler, korkuyor, pişiriyoruz, sanıyor, tı, Yaparım, aldım -->
     <feat name="Evident" value="Nfh" upos="AUX,VERB">418</feat><!-- görmüş, mış, miş, gitmiş, ymış, bitirmiş, okumuş, olmuş, yapmış, gelmişler -->
+    <feat name="ExtPos" value="ADV" upos="PRON">1</feat><!-- Ne -->
+    <feat name="ExtPos" value="CCONJ" upos="DET">2</feat><!-- bir -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">144</feat><!-- olsa, sa, olsam, gitsek, bitse, olsaydı, se, seyretsek, çalışsa, alsalar -->
     <feat name="Mood" value="CndGen" upos="AUX,VERB">47</feat><!-- olursa, giderse, olmazsa, büyütülürlerse, gelirse, olursak, seçerseniz, açarsa, binerse, bulmazsa -->
     <feat name="Mood" value="CndGenPot" upos="VERB">1</feat><!-- görüşemezsek -->
@@ -117,14 +119,14 @@
   <deps unique="42">
     <dep name="acl">299</dep>
     <dep name="advcl">490</dep>
-    <dep name="advmod">839</dep>
+    <dep name="advmod">840</dep>
     <dep name="advmod:emph">145</dep>
     <dep name="amod">307</dep>
     <dep name="appos">5</dep>
     <dep name="aux">176</dep>
     <dep name="aux:q">198</dep>
     <dep name="case">347</dep>
-    <dep name="cc">181</dep>
+    <dep name="cc">180</dep>
     <dep name="ccomp">169</dep>
     <dep name="compound">266</dep>
     <dep name="compound:redup">52</dep>

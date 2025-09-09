@@ -41,6 +41,7 @@ at the [the treebank web page](http://coltekin.github.io/gk-treebank/).
 Data available since: UD v2.4
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: manual native
 UPOS: manual native

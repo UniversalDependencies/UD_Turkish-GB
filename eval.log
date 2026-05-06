@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Turkish-GB:
-commit 3796f7862477c826a87221f26b58dd7df39a0cad
-Merge: 0ad40b3 f7619a7
+commit 65d3e9642467f8d99e0b3e77bef7bb149700e09e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:57:07 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tr_gb'
 Language code (from CoNLL-U file name) = 'tr'
@@ -25,20 +25,28 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tr --max-err=10 UD_Turkish-GB/tr_gb-ud-test.conllu
-[Line 552 Sent GK09-0002]: [L3 Warning fixed-without-extpos] Fixed expression 'çat kapı' does not have the 'ExtPos' feature
-[Line 737 Sent GK09-0024]: [L3 Warning fixed-without-extpos] Fixed expression 'Konu komşu' does not have the 'ExtPos' feature
-[Line 746 Sent GK09-0025]: [L3 Warning fixed-without-extpos] Fixed expression 'ufak tefek' does not have the 'ExtPos' feature
-[Line 754 Sent GK09-0026]: [L3 Warning fixed-without-extpos] Fixed expression 'Paldır küldür' does not have the 'ExtPos' feature
-[Line 762 Sent GK09-0027]: [L3 Warning fixed-without-extpos] Fixed expression 'Çoluk çocuk' does not have the 'ExtPos' feature
-[Line 771 Sent GK09-0028]: [L3 Warning fixed-without-extpos] Fixed expression 'süklüm püklüm' does not have the 'ExtPos' feature
-[Line 2694 Sent GK12-0091]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 2719 Sent GK12-0093]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 2923 Sent GK12-0112]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'toprağı') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 3257 Sent GK13-0024]: [L3 Warning fixed-without-extpos] Fixed expression 'o kadar' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 87
-*** PASSED ***
-Validity: 1
+[Line 552 Sent GK09-0002]: [L3 WARNING fixed-without-extpos] Fixed expression 'çat kapı' does not have the 'ExtPos' feature
+[Line 737 Sent GK09-0024]: [L3 WARNING fixed-without-extpos] Fixed expression 'Konu komşu' does not have the 'ExtPos' feature
+[Line 746 Sent GK09-0025]: [L3 WARNING fixed-without-extpos] Fixed expression 'ufak tefek' does not have the 'ExtPos' feature
+[Line 754 Sent GK09-0026]: [L3 WARNING fixed-without-extpos] Fixed expression 'Paldır küldür' does not have the 'ExtPos' feature
+[Line 762 Sent GK09-0027]: [L3 WARNING fixed-without-extpos] Fixed expression 'Çoluk çocuk' does not have the 'ExtPos' feature
+[Line 771 Sent GK09-0028]: [L3 WARNING fixed-without-extpos] Fixed expression 'süklüm püklüm' does not have the 'ExtPos' feature
+[Line 2694 Sent GK12-0091]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 2719 Sent GK12-0093]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 2923 Sent GK12-0112]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'toprağı') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3257 Sent GK13-0024]: [L3 WARNING fixed-without-extpos] Fixed expression 'o kadar' does not have the 'ExtPos' feature
+[Line 3768 Sent GK13-0077]: [L3 WARNING fixed-without-extpos] Fixed expression 'tabii ki' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 5762 Sent GK14-0173]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'arabanız') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6057 Sent GK14-0200]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'mazereti') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 9622 Sent GK17-0039]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'şey') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 14367 Sent GK20-0018]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'tatile') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 29660 Sent GKA2-0013]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'kullanımı') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 81
+SYNTAX errors: 6
+*** FAILED *** with 6 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -46,6 +54,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
 (weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
 (weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
-(TOTAL score=0.603711134967426) * (availability=1) * (validity=1) = 0.603711134967426
-STARS = 3
-UD_Turkish-GB	0.603711134967426	3
+(TOTAL score=0.603711134967426) * (availability=1) * (validity=0.01) = 0.00603711134967426
+STARS = 0
+UD_Turkish-GB	0.00603711134967426	0

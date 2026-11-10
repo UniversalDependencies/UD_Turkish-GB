@@ -116,7 +116,7 @@
     <feat name="Voice" value="Rfl" upos="VERB">10</feat><!-- kapanıyor, yıkanabilirler, Görünen, giyindin, kapanmıştı, sürünüyor, yalanıyordu, yıkanmıştı -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="42">
+  <deps unique="43">
     <dep name="acl">299</dep>
     <dep name="advcl">490</dep>
     <dep name="advmod">840</dep>
@@ -142,17 +142,18 @@
     <dep name="flat">8</dep>
     <dep name="goeswith">1</dep>
     <dep name="mark">200</dep>
-    <dep name="nmod">929</dep>
+    <dep name="nmod">934</dep>
     <dep name="nmod:comp">17</dep>
     <dep name="nmod:part">62</dep>
+    <dep name="nmod:tmod">1</dep>
     <dep name="nsubj">1630</dep>
     <dep name="nsubj:cop">23</dep>
     <dep name="nsubj:outer">2</dep>
     <dep name="nummod">193</dep>
     <dep name="obj">1125</dep>
-    <dep name="obl">1320</dep>
+    <dep name="obl">1315</dep>
     <dep name="obl:agent">23</dep>
-    <dep name="obl:tmod">503</dep>
+    <dep name="obl:tmod">502</dep>
     <dep name="orphan">7</dep>
     <dep name="parataxis">53</dep>
     <dep name="punct">2744</dep>

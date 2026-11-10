@@ -381,7 +381,6 @@
 # text = Mutlaka zamanı vardır.
 # gl = definitely time-3SG.POSS existent-GM
 # en = I’m sure s/he has the time.
-#
 1	Mutlaka	mutlaka	ADV	_	_	3	advmod	_	_
 2	zamanı	zaman	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
 3-4	vardır	_	_	_	_	_	_	_	SpaceAfter=No
@@ -2920,7 +2919,7 @@
 # text = Bayram’ın ailesinin diğer köylülerden daha çok toprağı var.
 # en = Bayram’s family has more land than the other villagers.
 1	Bayram’ın	bayram	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
-2	ailesinin	aile	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+2	ailesinin	aile	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nmod	_	_
 3	diğer	diğer	DET	_	Definite=Def|PronType=Art	4	det	_	_
 4	köylülerden	köylü	NOUN	_	Case=Abl|Number=Plur	6	obl	_	_
 5	daha	daha	ADV	_	_	6	advmod	_	_
@@ -5759,7 +5758,7 @@
 # text = Sizin arabanız var mı?
 # gloss = you-GEN car-2PL.POSS existent INT
 # en = Do you have a car?
-1	Sizin	siz	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	obl	_	_
+1	Sizin	siz	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod	_	_
 2	arabanız	araba	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	3	nsubj:cop	_	_
 3	var	var	ADJ	_	_	0	root	_	_
 4	mı	mi	AUX	_	Number=Sing|Person=3|PronType=Int|Tense=Pres	3	aux:q	_	SpaceAfter=No
@@ -6054,7 +6053,7 @@
 # en = Every one of the students had a different excuse.
 1	Öğrencilerin	öğrenci	NOUN	_	Case=Gen|Number=Plur	3	nmod:part	_	_
 2	her	her	DET	_	Definite=Def|PronType=Art	3	det	_	_
-3	birinin	biri	PRON	_	Case=Gen|Number=Sing|PronType=Ind	6	obl	_	_
+3	birinin	biri	PRON	_	Case=Gen|Number=Sing|PronType=Ind	6	nmod	_	_
 4	ayrı	ayrı	ADJ	_	_	6	amod	_	_
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
 6	mazereti	mazeret	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
@@ -9619,7 +9618,7 @@
 # sent_id = GK17-0039
 # text = Bundan başka bir şey var mı?
 # en = Is there anything other than this?
-1	Bundan	bu	PRON	_	Case=Abl|Number=Sing|PronType=Dem	4	obl	_	_
+1	Bundan	bu	PRON	_	Case=Abl|Number=Sing|PronType=Dem	4	nmod	_	_
 2	başka	başka	ADP	_	_	1	case	_	_
 3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	şey	şey	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
@@ -14364,7 +14363,7 @@
 # en = Apparently Osman is hesitating about whether to go on holiday this summer.
 1	Osman	Osman	PROPN	_	Number=Sing	8	nsubj	_	_
 2	bu	bu	DET	_	Definite=Def|PronType=Art	3	det	_	_
-3	yaz	yaz	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
+3	yaz	yaz	NOUN	_	Case=Nom|Number=Sing	4	nmod:tmod	_	_
 4	tatile	tatil	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
 5	çıkıp	çıkıp	VERB	_	Mood=Ind|VerbForm=Conv	6	advcl	_	_
 6	çıkmama	çık	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	7	nmod	_	_
@@ -17674,7 +17673,6 @@
 # sent_id = GK21-0238
 # text = Bu tür davranışlarla onu küçük düşürmüş oluyorsun.
 # en = You humiliate him/her by this kind of behaviour. (You are habitually in the state of having humiliated him/her.)
-#
 1	Bu	bu	DET	_	Definite=Def|PronType=Art	2	det	_	_
 2	tür	tür	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	davranışlarla	davranış	NOUN	_	Case=Ins|Number=Plur	6	obl	_	_
@@ -29657,7 +29655,7 @@
 # text = Cep telefonlarının kullanımı uçağın iletişim sistemini kötü yönde etkilemektedir.
 # en = The use of mobile phones adversely affects the plane’s communication system.
 1	Cep	cep	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	telefonlarının	telefon	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+2	telefonlarının	telefon	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
 3	kullanımı	kullanım	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	_
 4	uçağın	uçak	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
 5	iletişim	iletişim	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
